@@ -4,9 +4,13 @@
 <!-- Hero Section -->
 <section id="hero" class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-ocean-blue to-ocean-light">
     <!-- Background Image -->
-    <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('images/332.jpg') }}')"></div>
+    <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('images/332.jpeg') }}')"></div>
     
     <div class="relative z-10 text-center text-white max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mb-8">
+            <img src="{{ asset('images/lanal.png') }}" alt="Logo" class="mx-auto h-32 md:h-40 lg:h-48 w-auto">
+        </div>
+        
         <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             <span class="block">Jalasena Fishing</span>
             <span class="block text-ocean-light">Tournament 2025</span>
@@ -87,7 +91,7 @@
                     <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-ocean-light">
                         <i class="fas fa-map-marker-alt text-ocean-light text-2xl mb-3"></i>
                         <h4 class="font-bold text-gray-800 mb-2">Lokasi</h4>
-                        <p class="text-gray-600">Benoa, Bali</p>
+                        <p class="text-gray-600">RTH Taman Segara Kerti, Benoa, Bali</p>
                     </div>
                 </div>
             </div>
@@ -142,17 +146,17 @@
                         </div>
                         <div class="bg-white bg-opacity-20 p-4 rounded-lg text-center">
                             <div class="text-2xl font-bold mb-2">🏆</div>
-                            <div class="font-semibold">Hiburan 1</div>
+                            <div class="font-semibold">Harapan 1</div>
                             <div class="text-lg font-bold">Rp 3.000.000</div>
                         </div>
                         <div class="bg-white bg-opacity-20 p-4 rounded-lg text-center">
                             <div class="text-2xl font-bold mb-2">🏆</div>
-                            <div class="font-semibold">Hiburan 2</div>
+                            <div class="font-semibold">Harapan 2</div>
                             <div class="text-lg font-bold">Rp 2.000.000</div>
                         </div>
                         <div class="bg-white bg-opacity-20 p-4 rounded-lg text-center">
                             <div class="text-2xl font-bold mb-2">🏆</div>
-                            <div class="font-semibold">Hiburan 3</div>
+                            <div class="font-semibold">Harapan 3</div>
                             <div class="text-lg font-bold">Rp 1.000.000</div>
                         </div>
                     </div>
@@ -188,7 +192,7 @@
                     
                     <div class="space-y-3">
                         <div class="bg-white bg-opacity-20 p-3 rounded-lg text-center">
-                            <div class="font-semibold">Total Catch (per Jukung)</div>
+                            <div class="font-semibold">Total Catch (Jukung)</div>
                             <div class="text-lg font-bold">Rp 5.000.000</div>
                         </div>
                         <div class="bg-white bg-opacity-20 p-3 rounded-lg text-center">
@@ -386,7 +390,7 @@
             <!-- Google Maps -->
             <div class="bg-gray-100 rounded-xl overflow-hidden shadow-lg">
                 <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8102.556666768437!2d115.21097202632924!3d-8.74171981760744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd243dcb99e9a15%3A0x1ddefc07969b364a!2sPelabuhan%20Benoa%20Denpasar%20Selatan!5e0!3m2!1sen!2sid!4v1763309050634!5m2!1sen!2sid" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.4885577062523!2d115.20266190000001!3d-8.7400166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2435ba77d2f0d%3A0x1f017b22662e8500!2sRTH%20Taman%20Segara%20Kerthi!5e0!3m2!1sid!2sid!4v1763982128029!5m2!1sid!2sid"
                     width="100%" 
                     height="400" 
                     style="border:0;" 
@@ -405,11 +409,10 @@
                     </h3>
                     <div class="space-y-4">
                         <p class="text-lg">
-                            <strong>Benoa, Bali, Indonesia</strong>
+                            <strong>RTH Taman Segara Kerti</strong>
                         </p>
                         <p class="text-blue-100">
-                            Pelabuhan Benoa merupakan lokasi strategis untuk tournament memancing 
-                            dengan akses ke perairan dalam yang kaya akan berbagai jenis ikan.
+                            Ruang Terbuka Hijau Taman Segara Kerthi, Jl. Ikan Tuna IV, Bali.
                         </p>
                     </div>
                 </div>
@@ -422,7 +425,7 @@
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-800">Deck Sotto</h4>
-                                <p class="text-gray-600">Koordinator Tournament</p>
+                                <p class="text-gray-600">Panitia Tournament</p>
                             </div>
                         </div>
                         <p class="text-lg font-semibold text-gray-800">087721333344</p>
@@ -440,7 +443,7 @@
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-800">Komang Trigunadi</h4>
-                                <p class="text-gray-600">Sekretaris Tournament</p>
+                                <p class="text-gray-600">Panitia Tournament</p>
                             </div>
                         </div>
                         <p class="text-lg font-semibold text-gray-800">081239392399</p>
